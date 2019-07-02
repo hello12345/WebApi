@@ -1,0 +1,11 @@
+D:\Kishan\WebApi\WebApi\WebApiHelper\bin\Debug\WebApiHelper.dll
+D:\Kishan\WebApi\WebApi\WebApiHelper\bin\Debug\WebApiHelper.pdb
+D:\Kishan\WebApi\WebApi\WebApiHelper\obj\Debug\WebApiHelper.csproj.CoreCompileInputs.cache
+D:\Kishan\WebApi\WebApi\WebApiHelper\obj\Debug\WebApiHelper.dll
+D:\Kishan\WebApi\WebApi\WebApiHelper\obj\Debug\WebApiHelper.pdb
+D:\Work\Kishan\WebApi\WebApiHelper\bin\Debug\WebApiHelper.dll
+D:\Work\Kishan\WebApi\WebApiHelper\bin\Debug\WebApiHelper.pdb
+D:\Work\Kishan\WebApi\WebApiHelper\obj\Debug\WebApiHelper.csprojAssemblyReference.cache
+D:\Work\Kishan\WebApi\WebApiHelper\obj\Debug\WebApiHelper.csproj.CoreCompileInputs.cache
+D:\Work\Kishan\WebApi\WebApiHelper\obj\Debug\WebApiHelper.dll
+D:\Work\Kishan\WebApi\WebApiHelper\obj\Debug\WebApiHelper.pdb

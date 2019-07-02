@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[ErrorLog](
+	[ID] [bigint] IDENTITY(1,1) NOT NULL,
+	[Application] [nvarchar](200) NOT NULL,
+	[ErrorMsg] [nvarchar](max) NOT NULL,
+	[StatckTrace] [text] NOT NULL,
+	[ProcName] [nvarchar](1000) NOT NULL,
+	[CreatedBy] [bigint] NULL,
+	[CreatedDate] [datetime] NOT NULL,
+ CONSTRAINT [PK_ErrorLog] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]

@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Kishan\\WebApi\\WebApi\\WebApi\\WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Kishan\\WebApi\\WebApi\\WebApiBAL\\WebApiBAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kishan\\WebApi\\WebApi\\WebApiBAL\\WebApiBAL.csproj",
+        "projectName": "WebApiBAL",
+        "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApiBAL\\WebApiBAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Kishan\\WebApi\\WebApi\\WebApiCommon\\WebApiCommon.csproj": {
+                "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApiCommon\\WebApiCommon.csproj"
+              },
+              "D:\\Kishan\\WebApi\\WebApi\\WebAPIDAL\\WebApiDAL.csproj": {
+                "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebAPIDAL\\WebApiDAL.csproj"
+              },
+              "D:\\Kishan\\WebApi\\WebApi\\WebApiHelper\\WebApiHelper.csproj": {
+                "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApiHelper\\WebApiHelper.csproj"
+              },
+              "D:\\Kishan\\WebApi\\WebApi\\WebApiModel\\WebApiModel.csproj": {
+                "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApiModel\\WebApiModel.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Kishan\\WebApi\\WebApi\\WebApiCommon\\WebApiCommon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kishan\\WebApi\\WebApi\\WebApiCommon\\WebApiCommon.csproj",
+        "projectName": "WebApiCommon",
+        "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApiCommon\\WebApiCommon.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Kishan\\WebApi\\WebApi\\WebApiConstant\\WebApiConstant.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kishan\\WebApi\\WebApi\\WebApiConstant\\WebApiConstant.csproj",
+        "projectName": "WebApiConstant",
+        "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApiConstant\\WebApiConstant.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Kishan\\WebApi\\WebApi\\WebAPIDAL\\WebApiDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kishan\\WebApi\\WebApi\\WebAPIDAL\\WebApiDAL.csproj",
+        "projectName": "WebApiDAL",
+        "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebAPIDAL\\WebApiDAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Kishan\\WebApi\\WebApi\\WebApiConstant\\WebApiConstant.csproj": {
+                "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApiConstant\\WebApiConstant.csproj"
+              },
+              "D:\\Kishan\\WebApi\\WebApi\\WebApiModel\\WebApiModel.csproj": {
+                "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApiModel\\WebApiModel.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Kishan\\WebApi\\WebApi\\WebApiHelper\\WebApiHelper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kishan\\WebApi\\WebApi\\WebApiHelper\\WebApiHelper.csproj",
+        "projectName": "WebApiHelper",
+        "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApiHelper\\WebApiHelper.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Kishan\\WebApi\\WebApi\\WebApiModel\\WebApiModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kishan\\WebApi\\WebApi\\WebApiModel\\WebApiModel.csproj",
+        "projectName": "WebApiModel",
+        "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApiModel\\WebApiModel.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Kishan\\WebApi\\WebApi\\WebApiCommon\\WebApiCommon.csproj": {
+                "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApiCommon\\WebApiCommon.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Kishan\\WebApi\\WebApi\\WebApi\\WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kishan\\WebApi\\WebApi\\WebApi\\WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
+        "outputPath": "D:\\Kishan\\WebApi\\WebApi\\WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Kishan\\WebApi\\WebApi\\WebApiBAL\\WebApiBAL.csproj": {
+                "projectPath": "D:\\Kishan\\WebApi\\WebApi\\WebApiBAL\\WebApiBAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+D:\Kishan\WebApi\WebApi\WebApiCommon\bin\Debug\WebApiCommon.dll
+D:\Kishan\WebApi\WebApi\WebApiCommon\bin\Debug\WebApiCommon.pdb
+D:\Kishan\WebApi\WebApi\WebApiCommon\obj\Debug\WebApiCommon.csproj.CoreCompileInputs.cache
+D:\Kishan\WebApi\WebApi\WebApiCommon\obj\Debug\WebApiCommon.dll
+D:\Kishan\WebApi\WebApi\WebApiCommon\obj\Debug\WebApiCommon.pdb
+D:\Work\Kishan\WebApi\WebApiCommon\bin\Debug\WebApiCommon.dll
+D:\Work\Kishan\WebApi\WebApiCommon\bin\Debug\WebApiCommon.pdb
+D:\Work\Kishan\WebApi\WebApiCommon\obj\Debug\WebApiCommon.csprojAssemblyReference.cache
+D:\Work\Kishan\WebApi\WebApiCommon\obj\Debug\WebApiCommon.csproj.CoreCompileInputs.cache
+D:\Work\Kishan\WebApi\WebApiCommon\obj\Debug\WebApiCommon.dll
+D:\Work\Kishan\WebApi\WebApiCommon\obj\Debug\WebApiCommon.pdb

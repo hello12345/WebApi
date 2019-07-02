@@ -1,0 +1,13 @@
+D:\Work\Kishan\WebApi\WebApi1\bin\Debug\netcoreapp2.2\WebApi1.deps.json
+D:\Work\Kishan\WebApi\WebApi1\bin\Debug\netcoreapp2.2\WebApi1.runtimeconfig.json
+D:\Work\Kishan\WebApi\WebApi1\bin\Debug\netcoreapp2.2\WebApi1.runtimeconfig.dev.json
+D:\Work\Kishan\WebApi\WebApi1\bin\Debug\netcoreapp2.2\WebApi1.dll
+D:\Work\Kishan\WebApi\WebApi1\bin\Debug\netcoreapp2.2\WebApi1.pdb
+D:\Work\Kishan\WebApi\WebApi1\obj\Debug\netcoreapp2.2\WebApi1.csproj.CoreCompileInputs.cache
+D:\Work\Kishan\WebApi\WebApi1\obj\Debug\netcoreapp2.2\WebApi1.RazorAssemblyInfo.cache
+D:\Work\Kishan\WebApi\WebApi1\obj\Debug\netcoreapp2.2\WebApi1.RazorAssemblyInfo.cs
+D:\Work\Kishan\WebApi\WebApi1\obj\Debug\netcoreapp2.2\WebApi1.AssemblyInfoInputs.cache
+D:\Work\Kishan\WebApi\WebApi1\obj\Debug\netcoreapp2.2\WebApi1.AssemblyInfo.cs
+D:\Work\Kishan\WebApi\WebApi1\obj\Debug\netcoreapp2.2\WebApi1.RazorTargetAssemblyInfo.cache
+D:\Work\Kishan\WebApi\WebApi1\obj\Debug\netcoreapp2.2\WebApi1.dll
+D:\Work\Kishan\WebApi\WebApi1\obj\Debug\netcoreapp2.2\WebApi1.pdb
