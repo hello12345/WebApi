@@ -183,7 +183,7 @@ namespace WebApiBAL
 				using (Sms_Template_MasterDAL objSms_Template_MasterDAL = new Sms_Template_MasterDAL())
                 {                    
 					DataSet dset = await objSms_Template_MasterDAL.GetByIDAsync(ID);
-					if (dset.Tables.Count > 0)
+					if (dset.Tables.Count > 0 && dset.Tables[0].Rows.Count>0)
 					{
                         DataTable dt = dset.Tables[0];
 						objResultPT.ReturnObject = CommonFunctions.FillProperties<Sms_Template_MasterDTO>(dt.Rows[0]);

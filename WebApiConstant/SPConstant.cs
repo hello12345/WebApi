@@ -11,7 +11,7 @@
         public const string SP_DeleteAll = "DeleteAll";
         public const string SP_GetByID = "GetByID";
         public const string SP_GetByEmail = "GetByEmail";
-        public const string SP_InsertErrorLog = "InsertErrorLog";
+        public const string SP_InsertErrorLog = "ErrorLogInsert";
         public const string sp_checklogin = "checklogin";
         #endregion
 

@@ -181,7 +181,7 @@ namespace WebApiBAL
 				using (Purchase_DetailsDAL objPurchase_DetailsDAL = new Purchase_DetailsDAL())
                 {                    
 					DataSet dset = await objPurchase_DetailsDAL.GetByIDAsync(ID);
-					if (dset.Tables.Count > 0)
+					if (dset.Tables.Count > 0 && dset.Tables[0].Rows.Count>0)
 					{
                         DataTable dt = dset.Tables[0];
 						objResultPT.ReturnObject = CommonFunctions.FillProperties<Purchase_DetailsDTO>(dt.Rows[0]);

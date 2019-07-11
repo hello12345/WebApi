@@ -182,7 +182,7 @@ namespace WebApiBAL
 				using (User_MasterDAL objUser_MasterDAL = new User_MasterDAL())
                 {                    
 					DataSet dset = await objUser_MasterDAL.GetByIDAsync(ID);
-					if (dset.Tables.Count > 0)
+					if (dset.Tables.Count > 0 && dset.Tables[0].Rows.Count>0)
 					{
                         DataTable dt = dset.Tables[0];
 						objResultPT.ReturnObject = CommonFunctions.FillProperties<User_MasterDTO>(dt.Rows[0]);
@@ -218,7 +218,7 @@ namespace WebApiBAL
                 using (User_MasterDAL objUser_MasterDAL = new User_MasterDAL())
                 {
                     DataSet dset = await objUser_MasterDAL.GetAllAsync();
-                    if (dset.Tables.Count > 0 && dset.Tables[0].Rows.Count>0)
+                    if (dset.Tables.Count > 0 && dset.Tables[0].Rows.Count>0 && dset.Tables[0].Rows.Count>0)
                     {
                         //DataTable dt = dset.Tables[0];
                         objResultPT.ReturnObject = CommonFunctions.ToClassList<User_MasterDTO>(dset.Tables[0]);
@@ -351,7 +351,7 @@ namespace WebApiBAL
                 using (User_MasterDAL objUser_MasterDAL = new User_MasterDAL())
                 {
                     DataSet dset = await objUser_MasterDAL.Login(username,password);
-                    if (dset.Tables.Count > 0)
+                    if (dset.Tables.Count > 0 && dset.Tables[0].Rows.Count>0 && dset.Tables[0].Rows.Count>0)
                     {
                         DataTable dt = dset.Tables[0];
                         objResultPT.ReturnObject = CommonFunctions.FillProperties<User_MasterDTO>(dt.Rows[0]);

@@ -60,8 +60,8 @@ D:\Work\Kishan\WebApi\WebApiConstant\bin\Debug\System.Buffers.xml
 D:\Work\Kishan\WebApi\WebApiConstant\bin\Debug\System.Memory.xml
 D:\Work\Kishan\WebApi\WebApiConstant\bin\Debug\System.Numerics.Vectors.xml
 D:\Work\Kishan\WebApi\WebApiConstant\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\Work\Kishan\WebApi\WebApiConstant\obj\Debug\WebApiConstant.csprojAssemblyReference.cache
 D:\Work\Kishan\WebApi\WebApiConstant\obj\Debug\WebApiConstant.csproj.CoreCompileInputs.cache
 D:\Work\Kishan\WebApi\WebApiConstant\obj\Debug\WebApiConstant.csproj.CopyComplete
 D:\Work\Kishan\WebApi\WebApiConstant\obj\Debug\WebApiConstant.dll
 D:\Work\Kishan\WebApi\WebApiConstant\obj\Debug\WebApiConstant.pdb
+D:\Work\Kishan\WebApi\WebApiConstant\obj\Debug\WebApiConstant.csprojAssemblyReference.cache

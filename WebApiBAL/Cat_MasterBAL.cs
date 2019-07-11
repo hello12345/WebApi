@@ -181,7 +181,7 @@ namespace WebApiBAL
 				using (Cat_MasterDAL objCat_MasterDAL = new Cat_MasterDAL())
                 {                    
 					DataSet dset = await objCat_MasterDAL.GetByIDAsync(ID);
-					if (dset.Tables.Count > 0)
+					if (dset.Tables.Count > 0 && dset.Tables[0].Rows.Count>0)
 					{
                         DataTable dt = dset.Tables[0];
 						objResultPT.ReturnObject = CommonFunctions.FillProperties<Cat_MasterDTO>(dt.Rows[0]);

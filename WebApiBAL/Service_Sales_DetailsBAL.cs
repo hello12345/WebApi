@@ -183,7 +183,7 @@ namespace WebApiBAL
 				using (Service_Sales_DetailsDAL objService_Sales_DetailsDAL = new Service_Sales_DetailsDAL())
                 {                    
 					DataSet dset = await objService_Sales_DetailsDAL.GetByIDAsync(ID);
-					if (dset.Tables.Count > 0)
+					if (dset.Tables.Count > 0 && dset.Tables[0].Rows.Count>0)
 					{
                         DataTable dt = dset.Tables[0];
 						objResultPT.ReturnObject = CommonFunctions.FillProperties<Service_Sales_DetailsDTO>(dt.Rows[0]);

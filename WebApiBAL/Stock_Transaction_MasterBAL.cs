@@ -183,7 +183,7 @@ namespace WebApiBAL
 				using (Stock_Transaction_MasterDAL objStock_Transaction_MasterDAL = new Stock_Transaction_MasterDAL())
                 {                    
 					DataSet dset = await objStock_Transaction_MasterDAL.GetByIDAsync(ID);
-					if (dset.Tables.Count > 0)
+					if (dset.Tables.Count > 0 && dset.Tables[0].Rows.Count>0)
 					{
                         DataTable dt = dset.Tables[0];
 						objResultPT.ReturnObject = CommonFunctions.FillProperties<Stock_Transaction_MasterDTO>(dt.Rows[0]);

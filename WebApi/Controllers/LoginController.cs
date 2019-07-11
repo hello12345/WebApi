@@ -7,10 +7,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApiBAL;
 using WebApiModel;
-using WebApi.Services;
+using WebapiCore.Services;
 using WebApiCommon;
+using Newtonsoft.Json.Linq;
 
-namespace WebApi.Controllers
+namespace WebapiCore.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -23,31 +24,33 @@ namespace WebApi.Controllers
             _userService = userService;
         }
         [HttpPost]
-        public ResultPT PostAsync([FromBody]LoginDTO logindetails)
+        [AllowAnonymous]
+        
+        public ResultPT Post([FromBody]string str)
         {
 
             ResultPT result = new ResultPT();
-           var user= _userService.AuthenticateAsync(logindetails.UserName, logindetails.Passwrod);
-            if (user == null)
-            {
-                result.TransactionStatus = Enums.ResultStatus.Failure;
-                result.ReturnObject = null;
-                result.ResultMsg = Messages.invalid_grant;
-            }
-            else
-            {
-                result.ReturnObject = user;
-                result.ResultMsg = Messages.Success;
-                result.TransactionStatus = Enums.ResultStatus.Success;
-            }
+           //var user= _userService.AuthenticateAsync(logindetails.UserName, logindetails.Passwrod);
+           // if (user == null)
+           // {
+           //     result.TransactionStatus = Enums.ResultStatus.Failure;
+           //     result.ReturnObject = null;
+           //     result.ResultMsg = Messages.invalid_grant;
+           // }
+           // else
+           // {
+           //     result.ReturnObject = user;
+           //     result.ResultMsg = Messages.Success;
+           //     result.TransactionStatus = Enums.ResultStatus.Success;
+           // }
 
 
             return result;
         }
-        [Authorize]
-        public string getall()
-        {
-            return "test";
-        }
+        //[AllowAnonymous]
+        //public string getall()
+        //{
+        //    return "test";
+        //}
     }
 }

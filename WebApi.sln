@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{BC43E59F-8952-4DA4-B208-A56960308E3C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDAL", "WebAPIDAL\WebApiDAL.csproj", "{6D6D82F2-6793-44BA-BDBD-3B6E608E876A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiBAL", "WebApiBAL\WebApiBAL.csproj", "{CA8BDBC8-8D71-4481-8DBE-0FBA9357B7B5}"
@@ -17,16 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiModel", "WebApiModel\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiHelper", "WebApiHelper\WebApiHelper.csproj", "{5EBACF27-E7A3-4391-9D66-59F955638E51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebapiCore", "WebapiCore\WebapiCore.csproj", "{C5E56075-6A74-4FDC-AEAF-6287D5E0CB13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BC43E59F-8952-4DA4-B208-A56960308E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC43E59F-8952-4DA4-B208-A56960308E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC43E59F-8952-4DA4-B208-A56960308E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC43E59F-8952-4DA4-B208-A56960308E3C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6D6D82F2-6793-44BA-BDBD-3B6E608E876A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6D6D82F2-6793-44BA-BDBD-3B6E608E876A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D6D82F2-6793-44BA-BDBD-3B6E608E876A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +47,10 @@ Global
 		{5EBACF27-E7A3-4391-9D66-59F955638E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EBACF27-E7A3-4391-9D66-59F955638E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EBACF27-E7A3-4391-9D66-59F955638E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E56075-6A74-4FDC-AEAF-6287D5E0CB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E56075-6A74-4FDC-AEAF-6287D5E0CB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E56075-6A74-4FDC-AEAF-6287D5E0CB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E56075-6A74-4FDC-AEAF-6287D5E0CB13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

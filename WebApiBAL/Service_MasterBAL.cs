@@ -183,7 +183,7 @@ namespace WebApiBAL
 				using (Service_MasterDAL objService_MasterDAL = new Service_MasterDAL())
                 {                    
 					DataSet dset = await objService_MasterDAL.GetByIDAsync(ID);
-					if (dset.Tables.Count > 0)
+					if (dset.Tables.Count > 0 && dset.Tables[0].Rows.Count>0)
 					{
                         DataTable dt = dset.Tables[0];
 						objResultPT.ReturnObject = CommonFunctions.FillProperties<Service_MasterDTO>(dt.Rows[0]);
